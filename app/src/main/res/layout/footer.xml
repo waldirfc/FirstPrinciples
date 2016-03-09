@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="clip_horizontal"
+
+        android:id="@+id/imageViewLogo"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/usd21logo"
+
+        android:scaleType="fitCenter"
+        />
+
+    <ImageView
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="clip_horizontal"
+
+        android:id="@+id/imageViewLogoDisciple"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/dm2012logo"
+
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="38dp"
+        android:text="@string/disciple"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textAlignment="center"
+
+        android:autoLink="web"
+        android:id="@+id/textViewSite"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/button_contato"
+
+            android:text="@string/contact"
+            android:textColor="@color/green"
+            android:textSize="19sp"
+
+            android:layout_width="81dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center_vertical"
+
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <ImageButton
+            android:id="@+id/button_facebook"
+
+            android:src="@drawable/icfacebook"
+
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@color/colorPrimary"
+
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            />
+
+        <ImageButton
+            android:id="@+id/button_youtube"
+
+            android:src="@drawable/icyoutube"
+
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@color/colorPrimary"
+
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

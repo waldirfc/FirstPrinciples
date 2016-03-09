@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+}
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    color: blue;
+}
+
+ol {
+	text-align: justify;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+ol li {    
+    padding: 5px;
+    margin-left: 5px;
+}
+
+p {
+	text-align: justify;
+}
+
+img {
+	width: 400px;
+}
